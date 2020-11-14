@@ -1,11 +1,10 @@
 name: Crush images
 on:
   pull_request:
-    branches:
-    - master
     paths:
     - "*"
     - "!docs"
+    - "!docs/"
 jobs:
   crush:
     runs-on: ubuntu-latest

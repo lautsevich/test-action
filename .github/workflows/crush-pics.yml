@@ -5,7 +5,7 @@ on:
       - develop
       - master
     paths:
-      - 'docs/1.png'
+      - '!docs/1.png'
 jobs:
   crush:
     runs-on: ubuntu-latest

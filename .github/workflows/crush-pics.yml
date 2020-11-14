@@ -5,7 +5,7 @@ on:
       - develop
       - master
     paths-ignore:
-      - "docs/**"
+      - "./docs/**"
     # paths:
     #   - '!docs/1.png'
     #   - 'docs/2.png'

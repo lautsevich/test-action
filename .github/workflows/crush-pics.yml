@@ -3,11 +3,10 @@ on:
   pull_request:
     branches:
       - develop
-      - master
+      # - master
     paths:
       - "*"
       - "!docs"
-      - "!docs/"
 jobs:
   crush:
     runs-on: ubuntu-latest

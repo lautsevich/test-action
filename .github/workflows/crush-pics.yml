@@ -6,7 +6,7 @@ on:
       - master
     paths:
       - "*"
-      - "!docs/"
+      - "!docs/**.png"
 jobs:
   crush:
     runs-on: ubuntu-latest
